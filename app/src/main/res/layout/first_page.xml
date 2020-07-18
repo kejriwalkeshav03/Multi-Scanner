@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/btn_for_editor"
+        android:layout_width="112dp"
+        android:layout_height="91dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="19dp"
+        android:layout_toEndOf="@+id/first_page_button"
+        app:srcCompat="@drawable/black_editor" />
+
+    <ImageView
+        android:id="@+id/first_page_button"
+        android:layout_width="121dp"
+        android:layout_height="81dp"
+        android:layout_alignParentTop="true"
+
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="269dp"
+        android:layout_toEndOf="@+id/imageView5"
+        app:srcCompat="@drawable/black_scanner" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="111dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="266dp"
+        app:srcCompat="@drawable/black_text" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginBottom="326dp"
+        android:text="Text Recognition" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_page_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="323dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="Scanner" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_for_editor"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginBottom="326dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="Photo Editor" />
+
+
+</RelativeLayout>
